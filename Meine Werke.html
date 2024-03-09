@@ -5,10 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine Werke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 
 
 <style>
+    body {
+        font-family: "Open Sans", sans-serif;
+        background-color: rgb(197, 207, 207);
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
     .headline {
         color: rgb(236, 99, 202);
     }
@@ -18,6 +29,11 @@
         height: 400px;
         object-fit: cover;
     }
+    
+    .image-container {
+        background-color: rgb(215, 220, 225);
+        padding: 16px;
+    }
 </style>
 
 
@@ -26,7 +42,9 @@
 
 
     <h1 class="headline">Meine Werke</h1>
-    <img class="code-image" src="Code.jpg">
+    <div class="image-container">
+        <img class="code-image" src="Code.jpg">
+    </div>
 
 
 </body>

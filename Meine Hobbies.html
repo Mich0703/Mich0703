@@ -5,10 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine Hobbies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 
 
 <style>
+    body {
+        font-family: "Open Sans", sans-serif;
+        background-color: rgb(197, 207, 207);
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
     .headline {
         color: rgb(236, 99, 202);
     }
@@ -28,6 +39,11 @@
         object-position: 50% 50%;
         display: block;
     }
+    
+    .image-container {
+        background-color: rgb(215, 220, 225);
+        padding: 16px;
+    }
 </style>
 
 
@@ -36,8 +52,13 @@
 
 
     <h1 class="headline">Meine Hobbies</h1>
-    <img class="mac-image" src="Mac.jpg">
-    <img class="tattoo-image" src="tattoo.jpg">
+    <div class="image-container">
+        <img class="mac-image" src="Mac.jpg">
+        <img class="tattoo-image" src="tattoo.jpg">
+    </div>
+
+    <br> <br> Ich liebe es zu programmieren und ich stehe total auf Musik und Tattoos. Deswegen habe ich mich für diese beiden Bilder entschieden.
+
 
 
 </body>
